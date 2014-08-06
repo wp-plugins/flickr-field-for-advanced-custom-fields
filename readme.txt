@@ -1,4 +1,4 @@
-=== Flickr field for Advanced Custom Fields v4 and v5 ===
+=== Flickr field for Advanced Custom Fields ===
 
 == Description ==
 
@@ -8,7 +8,7 @@ See the installation tab for more info.
 
 == Installation ==
 
-1. Make sure you have Advanced Custom Fields v4 or v5 installed. Get it at http://www.advancedcustomfields.com/. 
+1. Make sure you have Advanced Custom Fields **v4** or **v5** installed. Get it at http://www.advancedcustomfields.com/. 
 2. Upload the `flickr field` directory to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 
