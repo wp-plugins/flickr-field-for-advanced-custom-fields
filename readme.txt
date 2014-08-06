@@ -1,4 +1,4 @@
-=== Flickr field for Advanced Custom Fields (ACF) ===
+=== Flickr field for Advanced Custom Fields ===
 Contributors: phuisman
 Tags: flickr, acf
 Requires at least: 3.0.1
@@ -13,7 +13,7 @@ Display items from your Flickr photostream or entire sets/galleries along with y
 
 The Flickr Field will grant you the ability to include photos, sets and galleries from your Flickr account. After selecting which image formats you wish to use the plugin will generate the flickr image urls. This plugin is an add-on for the Advanced Custom Fields WordPress plugin (v4 and v5).
 
-See the installation tab for more info.
+See the installation and/or screenshots tab for more info.
 
 == Installation ==
 
