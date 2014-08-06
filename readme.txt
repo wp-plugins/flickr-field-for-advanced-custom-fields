@@ -1,5 +1,5 @@
 === Flickr field for Advanced Custom Fields (ACF) ===
-Contributors: paulhuisman
+Contributors: phuisman
 Tags: flickr, acf
 Requires at least: 3.0.1
 Tested up to: 3.9.1
