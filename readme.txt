@@ -15,6 +15,8 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 
 See the installation and/or screenshots tab for more info.
 
+Looking for a clean and very easy to setup lightbox? I recommend Easy Fancybox: http://wordpress.org/plugins/easy-fancybox/
+
 == Installation ==
 
 1. Make sure you have Advanced Custom Fields **v4** or **v5** installed. Get it at http://www.advancedcustomfields.com/. 
