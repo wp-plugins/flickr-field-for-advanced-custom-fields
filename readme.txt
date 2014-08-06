@@ -10,10 +10,11 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 2. Upload the `flickr field` directory to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Usage Example (in PHP) ==
+Usage Example (in PHP):
 
-* Getting the contents of a photostream and looping through the results**
+**Getting the contents of a photostream and looping through the results**
 
+	`
 	$flickr_photostream = get_field(FIELD_NAME);
 
 	if (isset($flickr_photostream['items'])) {
@@ -21,9 +22,11 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 			echo '<a href="' . $photo['large'] . '" title="' . $photo['title'] . '"><img src="' . $photo['thumb'] . '" /></a>';
 		}
 	}
+	`
 
-* Getting the contents of a set and looping through the results**
+**Getting the contents of a set and looping through the results**
 
+	`
 	$flickr_set = get_field(FIELD_NAME);
 
 	if (isset($flickr_set['items'])) {
@@ -33,13 +36,11 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 			}
 		}
 	}
+	`
 
 == Screenshots ==
 
-1. First screenshot
-2. This is the second screen shot
+1. Setting up the field
+2. Selecting a photo set
+3. Selecting individual photos from your photostream
 
-== Changelog ==
-
-= 1.0 =
-* Yay, the first release!
