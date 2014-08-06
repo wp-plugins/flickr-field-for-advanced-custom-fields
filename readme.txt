@@ -1,25 +1,18 @@
-Flickr field for Advanced Custom Fields v4 and v5
-=============
+=== Flickr field for Advanced Custom Fields v4 and v5 ===
 
-## Description
+== Description ==
 
 The Flickr Field will grant you the ability to include photos, sets and galleries from your Flickr account. After selecting which image formats you wish to use the plugin will generate the flickr image urls. This plugin is an add-on for the Advanced Custom Fields WordPress plugin.
 
-## Notice
+== Installation ==
 
-- This add-on needs [Advanced Custom Fields](http://www.advancedcustomfields.com/).
-- When you update from ACF v4 to ACF v5; First disable the Flickr plugin, then disable ACF v4 and enable ACF v5. Don't forget to backup your data first.
-- I recommend using [Easy Fancybox](https://wordpress.org/plugins/easy-fancybox/) if you want to use a lightbox that's very easy to setup.
+1. Make sure you have Advanced Custom Fields v4 or v5 installed. Get it at http://www.advancedcustomfields.com/. 
+2. Upload the `flickr field` directory to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
 
-## Installation
+== Usage Example (in PHP) ==
 
-1. Download the ACF Flickr Field repo to your plugin directory by downloading https://github.com/phuisman88/flickrfield/zipball/master or clone it via git: git clone git://github.com/phuisman88/flickrfield.git  
-2. Enable the plugin in your Wordpress installation.
-3. Succes! You can now select a Flickr field when you create new custom fields.
-
-## Usage Example (in PHP)
-
-**Getting the contents of a photostream and looping through the results**
+* Getting the contents of a photostream and looping through the results**
 
 	$flickr_photostream = get_field(FIELD_NAME);
 
@@ -29,7 +22,7 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 		}
 	}
 
-**Getting the contents of a set and looping through the results**
+* Getting the contents of a set and looping through the results**
 
 	$flickr_set = get_field(FIELD_NAME);
 
@@ -41,3 +34,12 @@ The Flickr Field will grant you the ability to include photos, sets and gallerie
 		}
 	}
 
+== Screenshots ==
+
+1. First screenshot
+2. This is the second screen shot
+
+== Changelog ==
+
+= 1.0 =
+* Yay, the first release!
