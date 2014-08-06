@@ -1,4 +1,4 @@
-=== Flickr field for Advanced Custom Fields ===
+=== Flickr field for Advanced Custom Fields (ACF) ===
 
 == Description ==
 
