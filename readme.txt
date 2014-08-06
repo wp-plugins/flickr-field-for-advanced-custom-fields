@@ -1,6 +1,6 @@
 === Flickr field for Advanced Custom Fields ===
 Contributors: phuisman
-Tags: flickr, acf
+Tags: flickr, acf, custom, fields, photostream, photosets
 Requires at least: 3.0.1
 Tested up to: 3.9.1
 Stable tag: 1.0
