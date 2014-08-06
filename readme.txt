@@ -4,6 +4,8 @@
 
 The Flickr Field will grant you the ability to include photos, sets and galleries from your Flickr account. After selecting which image formats you wish to use the plugin will generate the flickr image urls. This plugin is an add-on for the Advanced Custom Fields WordPress plugin.
 
+See the installation tab for more info.
+
 == Installation ==
 
 1. Make sure you have Advanced Custom Fields v4 or v5 installed. Get it at http://www.advancedcustomfields.com/. 
@@ -14,7 +16,6 @@ Usage Example (in PHP):
 
 **Getting the contents of a photostream and looping through the results**
 
-	`
 	$flickr_photostream = get_field(FIELD_NAME);
 
 	if (isset($flickr_photostream['items'])) {
@@ -22,11 +23,9 @@ Usage Example (in PHP):
 			echo '<a href="' . $photo['large'] . '" title="' . $photo['title'] . '"><img src="' . $photo['thumb'] . '" /></a>';
 		}
 	}
-	`
 
 **Getting the contents of a set and looping through the results**
 
-	`
 	$flickr_set = get_field(FIELD_NAME);
 
 	if (isset($flickr_set['items'])) {
@@ -36,7 +35,6 @@ Usage Example (in PHP):
 			}
 		}
 	}
-	`
 
 == Screenshots ==
 
