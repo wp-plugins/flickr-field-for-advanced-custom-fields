@@ -53,3 +53,10 @@ Usage Example (in PHP):
 2. Selecting a photo set
 3. Selecting individual photos from your photostream
 
+== Changelog ==
+
+= 1.0.1 =
+* Updated Flickr Field to work with ACF5 most recent API changes
+
+= 1.0.0 =
+* First version of the plugin.
