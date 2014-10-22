@@ -54,6 +54,9 @@ Usage Example (in PHP):
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed a bug where you could not include two flickr fields on the same post
+
 = 1.0.1 =
 * Updated Flickr Field to work with ACF5 most recent API changes
 
