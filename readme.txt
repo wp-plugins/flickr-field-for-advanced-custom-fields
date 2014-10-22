@@ -3,6 +3,7 @@ Contributors: phuisman
 Tags: flickr, acf, custom, fields, photostream, photosets
 Requires at least: 3.0.1
 Tested up to: 3.9.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +54,9 @@ Usage Example (in PHP):
 3. Selecting individual photos from your photostream
 
 == Changelog ==
+
+= 1.0.2 =
+* Fixed a bug where you could not include two flickr fields on the same post
 
 = 1.0.1 =
 * Updated Flickr Field to work with ACF5 most recent API changes
