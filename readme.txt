@@ -3,7 +3,7 @@ Contributors: phuisman
 Tags: flickr, acf, custom, fields, photostream, photosets
 Requires at least: 3.0.1
 Tested up to: 4.0
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Usage Example (in PHP):
 3. Selecting individual photos from your photostream
 
 == Changelog ==
+
+= 1.0.4 =
+* Added possibility to display original format of the photo
 
 = 1.0.3 =
 * Fixed a bug where you could not deselect the flickr item and save correctly
