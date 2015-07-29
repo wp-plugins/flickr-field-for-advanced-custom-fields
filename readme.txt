@@ -3,7 +3,7 @@ Contributors: phuisman
 Tags: flickr, acf, custom, fields, photostream, photosets
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Looking for a clean and very easy to setup lightbox? I recommend Easy Fancybox: 
 
 == Installation ==
 
-1. Make sure you have Advanced Custom Fields **v4** or **v5** installed. Get it at http://www.advancedcustomfields.com/. 
+1. Make sure you have Advanced Custom Fields **v4** or **v5** installed. Get it at http://www.advancedcustomfields.com/.
 2. Upload the `flickr field` directory to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -54,6 +54,9 @@ Usage Example (in PHP):
 3. Selecting individual photos from your photostream
 
 == Changelog ==
+
+= 1.0.6 =
+* Small bugfix to get rid of notification
 
 = 1.0.5 =
 * Added feature to limit the maximum selectable amount of sets/photos
