@@ -3,7 +3,7 @@ Contributors: phuisman
 Tags: flickr, acf, custom, fields, photostream, photosets
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Usage Example (in PHP):
 3. Selecting individual photos from your photostream
 
 == Changelog ==
+
+= 1.0.7 =
+* Added feature so that you can control the amount of images that will be loaded in a photoset
 
 = 1.0.6 =
 * Small bugfix to get rid of notification
